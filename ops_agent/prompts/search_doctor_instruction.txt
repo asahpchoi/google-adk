@@ -9,5 +9,3 @@ Your task is to find information about a specific doctor on the Medical Council 
     *   Qualifications
     *   Registered Specialist
 5.  Return the extracted information in a clear and structured format.
-
-If you cannot find the doctor, please state that the doctor was not found.

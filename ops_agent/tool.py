@@ -7,7 +7,11 @@ mcp_config = {
     'mcpServers': {
         'chrome-devtools': {
             'command': 'npx',
-            'args': ['-y', 'chrome-devtools-mcp@latest', '--headless=true', '--isolated=true']
+            'args': ['-y', 
+                     'chrome-devtools-mcp@latest', 
+                    # '--headless=true', 
+                     '--isolated=true'
+                    ]
         }
     }
 }
@@ -36,3 +40,15 @@ async def search_doctor(dr_name: str, search_url: str = "https://www.mchk.org.hk
         return result.output
     except Exception as e:
         return f"An error occurred: {e}"
+    
+
+async def search_swissre(illness: str, search_url: str = "https://www.mchk.org.hk/english/list_register/advanced_search.php?type=O") -> str:
+    with open('ops_agent/prompts/search_swissre_instruction.txt', 'r') as f:
+        instruction = f.read().format(search_url=search_url, illness=illness)
+    print(instruction)
+    try:
+        result = await agent.run(instruction)
+        return result.output
+    except Exception as e:
+        return f"An error occurred: {e}"
+
