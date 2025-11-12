@@ -1,0 +1,119 @@
+{
+  "eval_set_id": "evalset3326ca",
+  "name": "evalset3326ca",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case627602",
+      "conversation": [
+        {
+          "invocation_id": "e-6a360807-a777-4229-9abd-5f8cfb86bd5a",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "check the fund of Peso Global Good ESG Fund",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The Peso Global Good ESG Fund has a Net Asset Value Per Unit (NAVPU) of 1.59946. The Year-to-date (YTD) performance is not explicitly available, but the 1 Year Ago performance was 5.39%.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-2e6d4bbd-a260-4b8b-870d-042bccab1029",
+                "args": {
+                  "fundname": "Peso Global Good ESG Fund"
+                },
+                "name": "search_fund"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1762941709.666807
+        },
+        {
+          "invocation_id": "e-a85dd6be-42d0-4ba7-9d44-bd6590e839d9",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "check the fund of Peso Global Good ESG Fund",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The Peso Global Good ESG Fund has a Net Asset Value Per Unit (NAVPU) of ₱ 1.59946 as of November 11, 2025. The Year-to-date (YTD) Performance is not explicitly stated, but the performance from 1 Year Ago was 5.39% as of June 30, 2025.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-a4182bd7-b2ca-403e-beda-066fe1e90d82",
+                "args": {
+                  "fundname": "Peso Global Good ESG Fund"
+                },
+                "name": "search_fund"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1762942646.928216
+        }
+      ],
+      "session_input": {
+        "app_name": "ops_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1762942744.4586065
+    }
+  ],
+  "creation_timestamp": 1762942739.378289
+}

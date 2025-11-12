@@ -1,0 +1,7 @@
+Here is the navigation flow:
+
+1.  **Navigate to URL:** `https://identity.swissre.com/oauth2/aus9whcepgeG3z28Q0i7/v1/authorize?client_id=0oafsxlv6khGAXo6L0i7&redirect_uri=https%3A%2F%2Flifeguide.lhapps.swissre.com%2Fauthorization-code%2Fcallback&response_type=code&scope=openid%20profile%20email%20offline_access&code_challenge=Ml-d7LeHadYaqY4WAUxJoqIGw4UExineL7u5aab93tI&code_challenge_method=S256&response_mode=form_post&nonce=638984357094151580.NjdjZTNiMTgtNmNhNy00YzBkLTkwN2UtYjQ1ZGExZmM0YjAwZGRhMDI1YjEtZGRmZC00NzczLTkxNDgtODhkNDc1MDA1MWRl&state=CfDJ8JzVYaCQa5tCnf1n-kdP0qW4k8-aCkd1SjNiiJxthVKfDXncSRnEWit773IMHjnGXd-p9D_mX8rC9a4OOa9kaZ2VUl_loogYd6g1tWpBw3Lc4m08MNNVg7GuhxCIQaW9DqhVuhAfpyghsiRiSktHRiovs06K1m87KkBS5vVCXr9uIwtuj_b6ujettveGSLUx1oBvsI4QqJgDMC2cNMz7XwDF0HBkiw-Ycx4AVkV45I_q9jM3DCD_FvrI3V-VP0c8V08ptd9DVauL4dLzPglEgH35AwQxqGMu1vu8pEvNESeHzfDe8BW6ZVBTAO0mQxZSrp0opuKaBl_B0guk1Kd0bjPpWmqtSkwoSG-7hsWEvD0Q_EPiB4kFndtvlQhjV1lHzsbaQJ087QeGXgwO6LVznuxdyjp1IILfXkWBeThuNFzr&x-client-SKU=ID_NET8_0&x-client-ver=8.8.0.0`
+2.  **Fill Email:** Enter `yuenshan.wan@fwd.com` into the email input field.
+3.  **Click Next:** Click the "Next" button.
+4.  **Fill Password:** Enter `Maruhanamiri333` into the password input field.
+5.  **Click Verify:** Click the "Verify" button.
